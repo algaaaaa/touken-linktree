@@ -1,0 +1,7 @@
+@layer base {
+  body {
+    background-color: #020617;
+    color: #e5e7eb;
+    min-height: 100vh;
+  }
+}

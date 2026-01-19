@@ -56,7 +56,7 @@ import LightPillar from './component/LightPillar/LightPillar.vue'
           class="link-btn"
         >
           <img src="/ROOBET.png" alt="Roobet" class="link-icon" />
-          <span class="link-text">Sign up on Roobet</span>
+          <span class="link-text">Sign up on Roobet with code "TKN"</span>
         </a>
 
         <a
@@ -66,7 +66,7 @@ import LightPillar from './component/LightPillar/LightPillar.vue'
           class="link-btn"
         >
           <img src="/touken-link.png" alt="Touken" class="link-icon" />
-          <span class="link-text">Explore more bonuses</span>
+          <span class="link-text">Explore more bonuses on touken.gg</span>
         </a>
 
         <a
@@ -76,7 +76,7 @@ import LightPillar from './component/LightPillar/LightPillar.vue'
           class="link-btn"
         >
           <img src="/discord-color-icon.svg" alt="Discord" class="link-icon" />
-          <span class="link-text">Join our community</span>
+          <span class="link-text">Join our discord community</span>
         </a>
       </div>
 
@@ -267,6 +267,12 @@ import LightPillar from './component/LightPillar/LightPillar.vue'
   margin-top: 10px;
   font-size: 0.75rem;
   color: #6b7280;
+}
+
+@media (min-width: 641px) {
+  .links {
+    max-width: 380px;
+  }
 }
 
 @media (max-width: 640px) {
